@@ -27,6 +27,33 @@ body{
     float: left;
 }
 
+.topNav{
+    overflow: hidden;
+    background-color: gray;
 
+}
+
+.topNav a{
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:9px 16px;
+    text-decoration: none; 
+    font-size: 17px;
+     
+}
+
+.topNavRight{
+    float: right;
+}
+
+.topNav a:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.topNav a.active{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    }
 
 
