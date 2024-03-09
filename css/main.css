@@ -15,6 +15,7 @@ body{
     text-align: justify;
     justify-content: right;
     align-items:flex-start;
+    color: grey;
 }
 
 .flexItem2{
@@ -55,5 +56,66 @@ body{
     background-color: rgb(255, 0, 0);
     color: rgb(255, 0, 0);
     }
+
+    .flexContainer2{
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        text-align: justify;
+        justify-content: right;
+        align-items: flex-start;
+        color: grey;
+
+    }
+
+    .flexItem3{
+        padding: 20px;
+        flex: 50px;
+    }
+
+    .flexItem3 img{
+        width: 100%;
+        float: left;
+    }
+
+   h2 {
+    text-align: center;
+    color: grey;
+   }
+
+body {
+    background-color: black;
+}
+
+.topNavAbout{
+    overflow: hidden;
+    background-color: gray;
+
+}
+
+.topNavAbout a{
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:9px 16px;
+    text-decoration: none; 
+    font-size: 17px;
+     
+}
+
+.topNavAbout a:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.topNavAbout a.active{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    }
+
+    .topNavRightAbout{
+        float: right;
+    }
+
+
 
 
